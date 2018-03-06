@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    tools:context="com.adrianmanole.inventoryapp.CatalogActivity">
+
+    <ListView
+        android:id="@+id/list_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/dividerColor"
+        android:dividerHeight="@dimen/dimen_3dp"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin" />
+
+    <!-- Empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text_empty_store_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_empty_store_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/empty_store_title"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/empty_store_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_empty_store_title"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/empty_store" />
+
+        <TextView
+            android:id="@+id/text_empty_store_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empty_store_image"
+            android:layout_centerHorizontal="true"
+            android:text="@string/empty_store_subtitle"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/activity_margin"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/add_button" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+
+    <color name="colorPrimaryDark">#F57C00</color>
+
+    <color name="colorAccent">#03A9F4</color>
+
+    <color name="colorPrimaryLight">#FFE0B2</color>
+
+    <!-- ListView divider color -->
+    <color name="dividerColor">#BDBDBD</color>
+
+    <!-- Primary text color -->
+    <color name="colorTextPrimary">#212121</color>
+
+    <!-- Secondary text color -->
+    <color name="colorTextSecondary">#757575</color>
+
+</resources>

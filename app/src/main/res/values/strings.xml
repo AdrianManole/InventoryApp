@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Inventory app</string>
+
+    <string name="error_product_name_invalid">Product name entered is invalid</string>
+    <string name="error_product_price_invalid">Product price entered is invalid</string>
+    <string name="error_quantity_invalid">Quantity entered is not valid</string>
+    <string name="error_supplier_name_invalid">Supplier name entered is not valid</string>
+    <string name="error_supplier_email_invalid">Supplier email entered is not valid</string>
+    <string name="error_price_required">Please enter the price</string>
+    <string name="error_quantity_required">Please enter quantity</string>
+    <string name="error_supplier_name_required">Please enter the supplier</string>
+    <string name="error_insert_failed">Product record could not be saved</string>
+    <string name="error_deleting_all_entries">Error deleting products</string>
+    <string name="error_quantity_update">Error during stock update</string>
+    <string name="error_update_failed">Product record could not be updated</string>
+    <string name="error_no_image">You must add an image for the product</string>
+    <string name="error_delete_failed">Failed to delete the product</string>
+
+    <string name="exception_unknown_uri">Cannot query unknown Uri => %s</string>
+    <string name="exception_image_load_failed">Failed to load image</string>
+
+    <string name="display_product_price">Price: €%.2f</string>
+    <string name="display_product_quantity">Stock: %d</string>
+
+    <string name="empty_store_title">Store is empty</string>
+    <string name="empty_store_subtitle">Start adding products</string>
+
+    <string name="menu_delete_all_products">Delete all products</string>
+    <string name="menu_edit_product">Edit product</string>
+    <string name="menu_delete_product">Delete product</string>
+    <string name="menu_add_item">Save item</string>
+
+    <string name="dialog_action_yes">YES</string>
+    <string name="dialog_action_no">NO</string>
+    <string name="dialog_unsaved_changes">Discard your changes and quit editing?</string>
+
+    <string name="confirmation_all_products_deleted">All products deleted</string>
+    <string name="confirm_delete_successful">Product record deleted successfully</string>
+    <string name="confirm_update_successful">Product record updated successfully</string>
+    <string name="confirm_insert_successful">Product record inserted successfully</string>
+    <string name="delete_confirmation_dialog">Delete all products? \nClick NO to skip action</string>
+
+    <string name="title_editor">Product: </string>
+    <string name="title_editor_add">Add</string>
+    <string name="title_editor_edit">Edit</string>
+    <string name="title_product_detail">Product details</string>
+
+    <string name="hint_required_fields">Required fields are marked with *</string>
+
+    <string name="action_select_picture">Select Picture</string>
+
+    <string name="label_product_name_1">Product Name</string>
+    <string name="label_price_1">Price</string>
+    <string name="label_stock_1">Adjust Product Stock</string>
+    <string name="label_supplier_1">Supplier name</string>
+    <string name="label_email_1">Supplier e-mail</string>
+    <string name="label_email_subject">Re: Ordering stock for %s</string>
+    <string name="label_product_name">Product name *</string>
+    <string name="label_price">Price *</string>
+    <string name="label_quantity">Quantity *</string>
+    <string name="label_supplier">Supplier name *</string>
+    <string name="label_email">Supplier e-mail *</string>
+    <string name="label_phone">Supplier phone</string>
+    <string name="label_image">Select image</string>
+    <string name="label_currency">€</string>
+
+    <string name="default_product_name">Product Name</string>
+    <string name="default_price">€45.00</string>
+    <string name="default_stock">20</string>
+    <string name="default_phone">0040 0726 446 393</string>
+    <string name="default_email">supplier_name@gmail.com</string>
+    <string name="default_editor_image">Product image holder</string>
+
+    <string name="editor_invalid_entry">Invalid entry</string>
+
+</resources>
